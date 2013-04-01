@@ -12,14 +12,14 @@ This widget is more useful as a textfield (the default mode)
     ...
         $this->widget('ext.colorpicker.ColorPicker', array(
             'model' => $model,
-            'attribute' => 'cor',
+            'attribute' => 'color',
             'options' => array( // Optional
                 'pickerDefault' => "ccc", // Configuration Object for JS
             ),
         ));
     ...
         $this->widget('ext.colorpicker.ColorPicker', array(
-            'name' => 'cor',
+            'name' => 'color',
         ));
     ...
 ```
